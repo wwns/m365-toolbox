@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 33
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         applicationId "com.vorsk.M365.toolbox"
         minSdkVersion 19
-        targetSdkVersion 24
+        targetSdkVersion 29
     }
 
     buildTypes {
